@@ -1,6 +1,9 @@
 # GTRSB-Kaggle-Competition
 Project for CSCI-GA-2271: Computer Vision, taught by Prof. Rob Fergus, Fall 2021.
 
+# Performance:
+This implementation achieved the first place out of a total of 137 participants in both public and private leaderboard from the Computer Vision class. It achieved 0.99730 accuracy on the public leaderbaord and an even higher score of 0.99762 on the private leaderboard.
+
 ## Motivation
 Sarcasm detection is a challenge for sentiment analysis due to its difference between surface meaning and intended meaning. In this pa- per, we test state-of-the-art models (BERT, RoBERTa) on their grasp on sarcasm using sentiment analysis. We append sarcastic sen- tences from Sarcasm Corpus V2 and SemEval- 2018 to the IMDB and SST2 dataset then ob- serve behavioral changes. We expect predicted labels to become negative or stay negative as sarcasm has an inherent negative sentiment. Our results show that without additional train- ing, BERT-style models lack the knowledge to process sarcasm and its negative sentiment, and manipulating the length and position of the sarcasm concatenation did not show ob- vious trends. Different types of sarcasm and datasets also do not yield notable differences.
 
