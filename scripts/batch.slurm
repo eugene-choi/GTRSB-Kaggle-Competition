@@ -1,14 +1,14 @@
 #!/bin/bash
 #SBATCH --job-name=vision_test
 #SBATCH --open-mode=append
-#SBATCH --output=/scratch/ec2684/%j_%x.out
-#SBATCH --error=/scratch/ec2684/%j_%x.err
+#SBATCH --output=/scratch//%j_%x.out
+#SBATCH --error=/scratch//%j_%x.err
 #SBATCH --export=ALL
 #SBATCH --time=6:30:00
 #SBATCH --gres=gpu:rtx8000:1
 #SBATCH --mem=64G
 #SBATCH -c 4
-#SBATCH --mail-user=<ec2684@nyu.edu>
+#SBATCH --mail-user=<@nyu.edu>
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END
 #SBATCH --mail-type=FAIL
