@@ -18,5 +18,7 @@ Using the BERT-style models, we perform senti- ment analysis on the IMDB Review 
 ## Stochastic Weight Averaging
 
 ## Paper
-Deep neural network for traffic sign recognition systems: An analysis of spatial transformers and stochastic optimisation methods [paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608018300054).
+Deep neural network for traffic sign recognition systems: An analysis of spatial transformers and stochastic optimisation methods (Arcos-Garcı’a et al., 2018) [paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608018300054).
+Spatial Transformer Networks (Jaderberg et al., 2016) [paper] (https://arxiv.org/abs/1506.02025).
+Averaging Weights Leads to Wider Optima and Better Generalization (Izmailov et al., 2019) [paper] (https://arxiv.org/abs/1803.05407).
 
