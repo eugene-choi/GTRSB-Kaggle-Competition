@@ -1,6 +1,9 @@
 # GTRSB-Kaggle-Competition
 Project for CSCI-GA-2271: Computer Vision, taught by Prof. Rob Fergus, Fall 2021.
 
+# Description:
+This is my implementation of the spatial transformer network model to compete in the in-class Kaggle competition on the GTSRB dataset (German Traffic Sign Recognition Benchmark). The dataset contains images labeled with 43 different types of traffic signs. The competition was held using the dataset in this repository, which has slightly less data than the original dataset.
+
 # Performance:
 This implementation achieved first place out of 137 participants in both public and private leaderboards from the Computer Vision class. It achieved 0.99730 accuracies score on the public leaderboard and an even higher score of 0.99762 on the private leaderboard.
 
